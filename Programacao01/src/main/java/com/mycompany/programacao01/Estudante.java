@@ -18,8 +18,44 @@ public class Estudante {
     private String matriculado;
     private String email;
     
+    public Estudante(){
+        nome = "Nobody";
+    }
+    
     public int obterIdade(Date hoje) {
         int idade = 0;
         return idade;
+    }
+    
+    public String getNome(){
+        return nome;
+    }
+    
+    public void setNome(String _nome){
+        nome = _nome;
+    }
+    
+    public Date getDataDeacimento(){
+        return dataDeNascimento;
+    }
+    
+    public void setDataDeNascimeto(Date _dataDeNacimento){
+        dataDeNascimento = _dataDeNacimento;
+    }
+    
+    public String getCPF(){
+        return cpf;
+    }
+    
+    public void setCPF(String _cpf){
+        nome = _cpf;
+    }
+    
+    public char getGenero(){
+        return genero;
+    }
+    
+    public void setGenero(char _genero){
+        nome = _genero;
     }
 }
