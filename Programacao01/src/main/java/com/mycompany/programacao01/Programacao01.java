@@ -12,7 +12,6 @@ public class Programacao01 {
 
     public static void main(String[] args) {
         System.out.println("Olá Mundo!");
-        System.out.println("Eu");
-        System.out.println("UE");
+        
     }
 }
