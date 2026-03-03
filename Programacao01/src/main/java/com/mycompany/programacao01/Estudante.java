@@ -18,4 +18,8 @@ public class Estudante {
     private String matriculado;
     private String email;
     
+    public int obterIdade(Date hoje) {
+        int idade = 0;
+        return idade;
+    }
 }
