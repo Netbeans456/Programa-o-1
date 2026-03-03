@@ -4,10 +4,18 @@
  */
 package com.mycompany.programacao01;
 
+import java.util.Date;
+
 /**
  *
  * @author aluno
  */
 public class Estudante {
+    private String nome;
+    private Date dataDeNascimento;
+    private String cpf;
+    private char genero;
+    private String matriculado;
+    private String email;
     
 }
