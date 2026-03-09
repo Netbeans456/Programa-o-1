@@ -48,7 +48,7 @@ public class Estudante {
     }
     
     public void setCPF(String _cpf){
-        nome = _cpf;
+        cpf = _cpf;
     }
     
     public char getGenero(){
@@ -56,6 +56,23 @@ public class Estudante {
     }
     
     public void setGenero(char _genero){
-        nome = _genero;
+        genero = _genero;
+    }
+    
+    public String getMatriculado(){
+        return matriculado;
+    }
+    
+    public void setGenero(String _matriculado){
+        matriculado = _matriculado;
+    }
+    
+    public String getEmail(){
+        return email;
+    }
+    
+    public void setEmail(String _email){
+        email = _email;
     }
 }
+
