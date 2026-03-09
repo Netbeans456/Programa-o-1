@@ -22,7 +22,7 @@ public class Estudante {
         nome = "Nobody";
     }
     
-    public int obterIdade(Date hoje) {
+    privado int obterIdade(Date hoje) {
         int idade = 0;
         return idade;
     }
