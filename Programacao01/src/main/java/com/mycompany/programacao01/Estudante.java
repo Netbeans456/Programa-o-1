@@ -10,7 +10,7 @@ import java.util.Date;
  *
  * @author aluno
  */
-class Estudante {
+public class Estudante {
     private String nome;
     private Date dataDeNascimento;
     private String cpf;
