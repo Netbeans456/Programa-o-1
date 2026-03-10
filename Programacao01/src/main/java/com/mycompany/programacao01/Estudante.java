@@ -11,6 +11,9 @@ import java.util.Date;
  * @author aluno
  */
 public class Estudante {
+    public static void main(String[] args) {
+        
+    }
     private String nome;
     private Date dataDeNascimento;
     private String cpf;
