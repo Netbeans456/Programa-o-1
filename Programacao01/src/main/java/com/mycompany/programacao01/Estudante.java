@@ -16,7 +16,6 @@ public class Estudante {
     private Date dataDeNascimento;
     private String cpf;
     private char genero;
-    private String matricula;
     private String email;
     private String nivelEnsino;
     private String telefone;
@@ -26,7 +25,6 @@ public class Estudante {
     private String digito;
     
     public Estudante(){
-        
         nomeAluno = "Nobody";
     }
     
@@ -34,15 +32,13 @@ public class Estudante {
         int idade = 0;
         return idade;
     }
-    
-    
-    
-    public String getNome(){
+    //Nome aluno
+    public String getNomeAluno(){
         return nomeAluno;
         
     }
     
-    public void setNome(String _nome){
+    public void setNomeAluno(String _nome){
         nomeAluno = _nome;
     }
     
@@ -79,7 +75,7 @@ public class Estudante {
     }
     
     public void setGenero(String _digito){
-        matricula = _digito;
+        digito = _digito;
     }
     
     //email
