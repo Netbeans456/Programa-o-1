@@ -11,16 +11,20 @@ import java.util.Date;
  * @author aluno
  */
 public class Estudante {
-    private String nome;
+    private String nomeAluno;
     private Date dataDeNascimento;
     private String cpf;
     private char genero;
-    private String matriculado;
+    private String matricula;
     private String email;
+    private String telefone;
+    private Date anoIngresso;
+    private String semetreIngresso;
+    private String situacao;
     
     public Estudante(){
         
-        nome = "Nobody";
+        nomeAluno = "Nobody";
     }
     
     private int obterIdade(Date hoje) {
@@ -28,13 +32,14 @@ public class Estudante {
         return idade;
     }
     
+    
     public String getNome(){
-        return nome;
+        return nomeAluno;
         
     }
     
     public void setNome(String _nome){
-        nome = _nome;
+        nomeAluno = _nome;
     }
     
     public Date getDataDeacimento(){
@@ -61,12 +66,12 @@ public class Estudante {
         genero = _genero;
     }
     
-    public String getMatriculado(){
-        return matriculado;
+    public String getMatricula(){
+        return matricula;
     }
     
-    public void setGenero(String _matriculado){
-        matriculado = _matriculado;
+    public void setGenero(String _matricula){
+        matricula = _matricula;
     }
     
     public String getEmail(){
