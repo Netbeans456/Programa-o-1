@@ -11,6 +11,9 @@ import java.util.Date;
  * @author aluno
  */
 public class Estudante {
+    public static void main(String[] args) {
+        System.out.println("");
+    }
     private String nomeAluno;
     private Date dataDeNascimento;
     private String cpf;
@@ -31,6 +34,7 @@ public class Estudante {
         int idade = 0;
         return idade;
     }
+    
     
     
     public String getNome(){
