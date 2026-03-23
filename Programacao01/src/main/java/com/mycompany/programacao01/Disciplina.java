@@ -14,4 +14,50 @@ public class Disciplina {
     private String cargaHoraria;
     private String ementa;
     private String objetivos;
+    
+    //codigoDiciplina
+    public String getCodigoDisciplina(){
+        return codigoDiciplina;
+    }
+    
+    public void setCodigoDiciplina(String _codigoDiciplina){
+        codigoDiciplina = _codigoDiciplina;
+    }
+    
+    //nomeDisciplina
+    public String getNomeDisciplina(){
+        return nomeDisciplina;
+    }
+    
+    public void setNomeDisciplina(String _nomeDisciplina){
+        nomeDisciplina = _nomeDisciplina;
+    }
+    
+    //cargaHoraria
+    public String getCargaHoraria(){
+        return cargaHoraria;
+    }
+    
+    public void setCargaHoraria(String _cargaHoraria){
+        cargaHoraria = _cargaHoraria;
+    }
+    
+    //ementa
+    public String getEmenta(){
+        return ementa;
+    }
+    
+    public void setEmenta(String _ementa){
+        ementa = _ementa;
+    }
+    
+    //objetivos
+    public String getObjetivos(){
+        return objetivos;
+    }
+    
+    public void setObjetivos(String _objetivos){
+        objetivos = _objetivos;
+    }
 }
+
