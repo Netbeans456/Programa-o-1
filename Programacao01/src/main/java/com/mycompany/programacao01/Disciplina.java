@@ -11,7 +11,7 @@ package com.mycompany.programacao01;
 public class Disciplina {
     private String codigoDiciplina;
     private String nomeDisciplina;
-    private String cargaHoraria;
+    private int cargaHoraria;
     private String ementa;
     private String objetivos;
     
@@ -34,11 +34,11 @@ public class Disciplina {
     }
     
     //cargaHoraria
-    public String getCargaHoraria(){
+    public int getCargaHoraria(){
         return cargaHoraria;
     }
     
-    public void setCargaHoraria(String _cargaHoraria){
+    public void setCargaHoraria(int _cargaHoraria){
         cargaHoraria = _cargaHoraria;
     }
     
