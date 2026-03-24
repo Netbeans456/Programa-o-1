@@ -25,7 +25,8 @@ public class Estudante {
     private String digito;
     
     public Estudante(){
-        nomeAluno = "Nobody";
+        this.nomeAluno = "Nobody";
+        
     }
     
     private int obterIdade(Date hoje) {
